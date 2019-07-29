@@ -4,9 +4,88 @@
     <meta charset="utf-8">
     <meta name="author" content="Leonards López">
     <meta name="viewport" content="with=device-width,user-scalable=no">
-    <title></title>
+    <title>Educación</title>
   </head>
   <body>
-    <a href="../index.html">Inicio</a>
+    <header name="presentacion" id="perfil">
+      <svg name="logo" id="logoSVG" width="400px" height="200px">
+        <image width="350px" height="350px" xlink:href="../images/logo.svg"></image>
+      </svg>
+      <h1 name="titulo" id="cv">"Curriculum Vitae"</h1>
+      <h2 name="nombre" id="nombres">Leonards Eduardo López Martínez</h2>
+      <h3 name="fechanac" id="fechalugar">11/12/1981 Managua, Nicaragua</h3>
+    </header>
+    <nav name="menu" id="enlaces">
+      <p>
+        <a href="../index.html">Inicio</a> | <a href="educacion.html">Educación</a> | <a href="../html/experiencia.html">Experiencia</a>
+      </p>
+    </nav>
+    <section name="educacion" id="estudios">
+      <h2 name="educacion" id="logros">Educación</h2>
+      <table name="certificados" id="certificados" border="1" cellpadding="10" cellspacing="0">
+        <thead>
+          <tr>
+            <th>Año</th>
+            <th>Institución</th>
+            <th>Lugar</th>
+            <th>¿Culminó?</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>2013</td>
+            <td>Universidad Latina de Panamá</td>
+            <td>Panamá</td>
+            <td>Sí. Maestría en Sistemas de Telecomunicaciones con Énfasis en Redes de Comunicación</td>
+          </tr>
+          <tr>
+            <td>2013</td>
+            <td>Universidad Latina de Panamá</td>
+            <td>Panamá</td>
+            <td>Sí. Posgrado en Sistemas de Telecomunicaciones.</td>
+          </tr>
+          <tr>
+            <td>2011</td>
+            <td>Universidad Evangélica Nicaraguense UENIC</td>
+            <td>Nicaragua</td>
+            <td>Sí. Ingeniero en Sistemas de Información Automatizada.</td>
+          </tr>
+        </tbody>
+      </table>
+      <form name="estudios" id="estudios">
+        <h3>Agregar Estudios</h3>
+        <p>
+          <label for="option">Año:</label>
+          <select name="opciones" id="option">
+            <option>2019</option>
+            <option>2018</option>
+            <option>2017</option>
+            <option>2016</option>
+            <option>2015</option>
+          </select>
+        </p>
+        <p>
+          <label for="institution">Institución:</label>
+          <input type="text" name="institucion" id="institution" size="50px" required>
+        </p>
+        <p>
+          <label for="place">Lugar:</label>
+          <textarea name="lugar" id="place" rows="2" cols="42" required></textarea>
+        </p>
+        <p>
+          <input type="submit" name="enviar" value="Enviar">
+        </p>
+      </form>
+    </section>
+    <footer name="contacto" id="contactos">
+      <h3 name="contactame" id="buscame">Contáctame:</h3>
+      <p><img name="mail" src="../images/gmail1.png" width="20px"> leonardsloma@gmail.com</p>
+      <p><img name="cellphone" src="../images/whatsapp.png" width="20px"> +505-78229461</p>
+      <a href="https://www.facebook.com/leonards.lopez" target="_blank"><img name="facebook" src="../images/Facebook_Logo.png" width="32px"></a>
+      <a href="https://www.instagram.com/leonardslopez/" target="_blank"><img name="instagram" src="../images/Instagram_Logo.png" width="32px"></a>
+      <a href="https://www.linkedin.com/in/leonards-lopez-24a4749a/" target="_blank"><img name="linkedin" src="../images/linkedin2.png" width="33px"></a>
+      <a href="https://twitter.com/leonardslo" target="_blank"><img name="twitter" src="../images/twitter.png" width="32px"></a>
+      <p>©2019 Leonards López</p>
+    </footer>
   </body>
 </html>
